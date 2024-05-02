@@ -43,3 +43,28 @@ a{
     color: #E1E4E8;
 }
 
+.nav {
+    border-radius: 3px;
+    text-align: end;
+}
+
+.nav li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    
+}
+
+.nav a{
+    background-color: #728FB5;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav a:hover{
+    background-color: #122D4F;
+    color: #E1E4E8;
+    text-decoration: none;
+    border-radius: 5px;
+}
