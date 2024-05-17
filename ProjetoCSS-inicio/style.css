@@ -10,13 +10,14 @@ body{
 header{
     background-image: url(imagens/bg-3.jpg);
     height: 500px;
-    background-position: center;
+    background-position: right center;
     background-size: cover;
 }
 
 header nav{
     text-align: right;
 }
+
 
 .nav-main {
     padding: 10px;
@@ -33,13 +34,13 @@ header nav{
     margin: 10px;
     padding: 10px;
     border-radius: 3px;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: #0000004b;
     text-decoration: none;
     color: white;
 }
 
 .nav-main ul li a:hover{
-    background-color: rgba(10, 48, 30, 0.452);
+    background-color: #0a301e73;
     padding: 10px;
 }
 
@@ -55,7 +56,7 @@ header nav{
 }
 
 .titulo-subtitulo p{
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: #00000091;
     width: 400px;
     margin: 30px auto 0;
     padding: 10px;
@@ -65,7 +66,8 @@ header nav{
 }
 
 article{
-    width: 1000px;
+    width: 90%;
+    max-width: 960px;
     margin: 30px auto;
     background-color: aliceblue;
     padding: 10px 10px 20px 10px;
@@ -90,9 +92,12 @@ article p{
 article a{
     background-color: tomato;
     text-decoration: none;
-    padding: 5px;
-    border-radius: 2px;
-    margin: 8px;
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-left: auto;
+    display: block;
+    width: fit-content;
     font-weight: bold;
     color: white;
 }
