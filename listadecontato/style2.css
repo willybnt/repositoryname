@@ -1,0 +1,62 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    color: purple;
+}
+
+.list{
+    width: 90%;
+    max-width: 860px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.list-item{
+    flex-basis: 200px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 2px black;
+    background-image: url(imagens/Screenshot_20220326-100831_Instagram.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.list-item-img-pp{
+    border-radius: 50%;
+    width: 80px;
+    max-height: 80px;
+    margin-top: 20px;
+}
+
+.list-item-content{
+    margin-bottom: 70px;
+}
+
+.list-item-content-name{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.list-item-action{
+    display: flex;
+    margin: 0px 0px 40px 20px;
+    justify-content: flex-start;
+    gap: 20px;
+}
