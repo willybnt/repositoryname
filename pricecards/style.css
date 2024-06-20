@@ -1,0 +1,116 @@
+body{
+    background-color: black;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #333333;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0  0  5px 5px;
+}
+
+.header-logo{
+     font-size: 36px;
+     text-transform: uppercase;
+     margin-left: 16px;
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+.nav-active{
+    background-color: greenyellow;
+    color: black;
+    pointer-events: none;
+}
+
+.main-title{
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.plans{
+    display: flex;
+    gap: 16px;
+}
+
+.plan{
+    flex: 1;
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px purple;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title{
+    text-transform: uppercase;
+    border-bottom: 2px solid greenyellow;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.plan p{
+    margin-top: 0;
+}
+
+.plan-price{
+     font-size: 30px;
+}
+
+.plan-features{
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 20px;
+    line-height: 1.8;
+    flex: 1;    
+}
+
+.plan-features li::marker{
+    color: greenyellow;
+}
+
+.plan-cta{
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+.plan-cta:hover{
+    outline: 2px solid purple;
+    background-color: transparent;
+    color: white;
+}
