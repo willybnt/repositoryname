@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login-section, .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .login-section label {
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .login-section input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-section button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .image-section {
+    background: url('img.png') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .image-section img {
+    display: none; /* Esconda a imagem para usar como fundo apenas */
+  }
+  
