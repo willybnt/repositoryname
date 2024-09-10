@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #f7f7f7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f7f7f7;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.vagas, .propaganda, .contato {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.vaga, .anuncio {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.vaga h3, .anuncio h3 {
+    color: #333;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato form label {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contato form input, .contato form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .vaga, .anuncio {
+        margin: 20px auto;
+        width: 100%;
+        max-width: 400px;
+    }
+}
